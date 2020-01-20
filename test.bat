@@ -27,7 +27,7 @@ ipconfig | findstr IPv4
 ipconfig | findstr IPv6
 git init
 git add --all
-git commit -m "JALAL"
+git commit -m "Batch-First"
 :argactionstart
 if -%1-==-- goto argactionend
 echo %1 & rem  do anything
