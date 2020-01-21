@@ -1,4 +1,5 @@
-@echo off
+@if "%DEBUG%" == "" @echo off 
+echo off
 cls rem clear the screen
 rem wmic /?
 rem wmic /AUTHLEVEL
@@ -28,4 +29,4 @@ SYSTEMINFO
 TITLE TEST
 @echo TREE ===================================================================================
 TREE
-pause
+:omega
